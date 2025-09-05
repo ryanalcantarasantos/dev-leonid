@@ -1,0 +1,53 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background-color: rgb(255, 255, 254);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 128px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+h2{
+    font-size: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.destaque {
+background-color: black;
+color: azure;
+padding: 12px 32px;
+transition: 1s;
+}
+.destaque:hover{
+    padding: 12px 128px;
+    background-color: aqua;
+    color: black;
+}
+.social-container{
+    margin-top: 25px;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.social-container img{
+    width: 48px;
+
+
+}
